@@ -27,7 +27,7 @@ for (( c=$START; c<=$END; c++ ))
 do
 $KALDI_PATH/utils/convert_slf.pl $THEANOLM_PATH/lattices/lat.$c.txt $THEANOLM_PATH/lattices/slf || true
 done
-search_dir="/nm-raid/audio/work/ajayakum/git/theanolm/recipes/penn-treebank/lattices/slf"
+search_dir= $THEANOLM_PATH/lattices/slf
 for entry in "$search_dir"/*
 do
   echo "$entry" >> $THEANOLM_PATH/lattices/lattices.txt
