@@ -6,8 +6,8 @@
 . /nm-raid/audio/work/ajayakum/git/theanolm/recipes/penn-treebank/paths.sh
 
 # Path to Kaldi and Theano folders
-KALDI_PATH = "/nm-raid/audio/work/ajayakum/kaldi/egs/tedlium/s5"
-THEANOLM_PATH = "/nm-raid/audio/work/ajayakum/git/theanolm/recipes/penn-treebank"
+KALDI_PATH="/nm-raid/audio/work/ajayakum/kaldi/egs/tedlium/s5"
+THEANOLM_PATH="/nm-raid/audio/work/ajayakum/git/theanolm/recipes/penn-treebank"
 
 
 #######################  first convert kaldi lattice to text format  ################################
